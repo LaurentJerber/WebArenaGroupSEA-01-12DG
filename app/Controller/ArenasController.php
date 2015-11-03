@@ -29,6 +29,7 @@ class ArenasController extends AppController
 		$this -> set('avantMove', $this -> Fighter -> getCoordinates(1));
 		$this -> Fighter -> doMove(1, "north");
 		$this -> set('apresMove', $this -> Fighter -> getCoordinates(1));
+		//caca
 	}
 	
 	public function sight() {
