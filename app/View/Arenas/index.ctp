@@ -1,0 +1,1 @@
+Bienvenue <?php echo $myname;?>
