@@ -32,12 +32,21 @@ class ArenasController extends AppController
 	}
 	
 	public function sight() {
-		 $this->set('raw',$this->Fighter->find('all'));
+		$fighterX = $this -> Fighter -> getX(1);
+		$fighterY = $this -> Fighter -> getY(1);
+		$movable = array(
+			($fighterX + 1) . "|" . $fighterY,
+			($fighterX - 1) . "|" . $fighterY,
+			$fighterX . "|" . ($fighterY + 1),
+			$fighterX . "|" . ($fighterY - 1)
+		);
+		$this -> set('current_x', $fighterX);
+		$this -> set('current_y', $fighterY);
+		$this -> set('movable', $movable);
 		 
 		 
 		if ($this->request->is('post')) {
 			pr($this->request->data);
-			
 		}
 
 	}

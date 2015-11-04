@@ -8,7 +8,13 @@ echo $this->Form->end('Move');
 	<?php for ($y = 0; $y < 15; $y++) { ?>
 		<tr>
 			<?php for ($x = 0; $x < 15; $x++) { ?>
-				<td class="empty_coordinate"></td>
+				<?php if (in_array($x . "|" . $y, $movable)) { ?>
+					<td class="movable_coordonate"><a href="?move"></a></td>
+				<?php } elseif ($x == $current_x && $y == $current_y) { ?>
+					<td class="current_coordonate"></td>
+				<?php } else { ?>
+					<td class="empty_coordonate"></td>
+				<?php } ?>
 			<?php } ?>
 		</tr>
 	<?php } ?>

@@ -430,3 +430,87 @@ Stack Trace:
 #1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
 #2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-11-04 14:02:05 Error: [MissingControllerException] Controller class SightController could not be found.
+Exception Attributes: array (
+  'class' => 'SightController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 14:02:29 Error: [MissingControllerException] Controller class SightController could not be found.
+Exception Attributes: array (
+  'class' => 'SightController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 14:02:37 Error: [MissingActionException] Action ArenasController::Arenas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'Arenas',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/Arenas/index
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-04 14:02:39 Error: [MissingActionException] Action ArenasController::Arenas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'Arenas',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/Arenas/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-04 14:02:40 Error: [MissingActionException] Action ArenasController::Arenas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'Arenas',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/Arenas/Arenas/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-04 14:02:40 Error: [MissingActionException] Action ArenasController::Arenas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'Arenas',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/Arenas/Arenas/Arenas/Arenas/diary
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-04 14:02:41 Error: [MissingActionException] Action ArenasController::Arenas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'Arenas',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/Arenas/Arenas/Arenas/Arenas/Arenas/connexion
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-04 14:18:42 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

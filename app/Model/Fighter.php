@@ -39,4 +39,14 @@ class Fighter extends AppModel {
 		$fighter = $this -> findById($fighterId);
 		return "X : " . $fighter['Fighter']['coordinate_x'] . " / Y : " . $fighter['Fighter']['coordinate_y'];
 	}
+	
+	public function getX($fighterId) {
+		$fighter = $this -> findById($fighterId);
+		return $fighter['Fighter']['coordinate_x'];
+	}
+	
+	public function getY($fighterId) {
+		$fighter = $this -> findById($fighterId);
+		return $fighter['Fighter']['coordinate_y'];
+	}
 }

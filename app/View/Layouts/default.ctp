@@ -37,11 +37,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div id="container">
 		<div id="header">
 			<ul>
-				<li><a href="index">Accueil</a></li>
-				<li><a href="fighter">Combattant</a></li>
-				<li><a href="sight">Vision</a></li>
-				<li><a href="diary">Journal</a></li>
-				<li><a href="connexion" id="menu_connexion">Connexion</a></li>
+				<li><?php echo $this -> Html -> link("Accueil", array('controller' => 'Arenas', 'action' => 'index')); ?></li>
+				<li><?php echo $this -> Html -> link("Connexion", array('controller' => 'Arenas', 'action' => 'connect')); ?></li>
+				<li><?php echo $this -> Html -> link("Combattant", array('controller' => 'Arenas', 'action' => 'fighter')); ?></li>
+				<li><?php echo $this -> Html -> link("Sight", array('controller' => 'Arenas', 'action' => 'sight')); ?></li>
+				<li><?php echo $this -> Html -> link("Journal", array('controller' => 'Arenas', 'action' => 'diary')); ?></li>
 				<div class="clear"></div>
 			</ul>
 		</div>
