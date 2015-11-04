@@ -9,7 +9,7 @@ App::uses('AppController', 'Controller');
  */
 class ArenasController extends AppController
 {
-	public $uses = array('Player', 'Fighter', 'Event');
+	public $uses = array('Player', 'Fighter', 'Event', 'Event');
     /**
      * index method : first page
      *
@@ -52,11 +52,9 @@ class ArenasController extends AppController
 	}
 	
 	public function diary() {
-		$this -> set('raw',$this->Event->find());
+		$events = $this -> Event -> recup_event_24();
+		$this -> set('events',$events);
 	
-		//2014-11-07 12:00:00
-		$ilya24h = date("Y-m-d H:i:s", time() - (60*60*24));
-		$events = $this -> query("SELECT * FROM events WHERE date > " . $ilya24h);
 	}
 }
 ?>
