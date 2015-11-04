@@ -251,3 +251,131 @@ Stack Trace:
 #10 C:\xampp\htdocs\WebArenaGoupSIA-00-00\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
 #11 C:\xampp\htdocs\WebArenaGoupSIA-00-00\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2015-11-03 12:10:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:11:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:11:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:13:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:13:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:13:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-03 12:13:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-04 09:01:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doMove' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('doMove', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('doMove', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('doMove', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('doMove', Array, Object(Fighter))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Model->__call('doMove', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(30): Fighter->doMove(1, 'north')
+#7 [internal function]: ArenasController->fighter()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

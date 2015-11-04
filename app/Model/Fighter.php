@@ -18,28 +18,21 @@ class Fighter extends AppModel {
 
    );
    
-   public function doMmove($fighterId, $direction) {
-	   $fighter = $this -> findById($fighterId);
-	   
+	public function doMove($fighterId, $direction){
+		$fighter = $this -> findById($fighterId);
+		
 		switch ($direction) {
-		case "north":
-			$fighter["Fighter"]["coordinate_y"]++;
-			break;
-		case "east":
-			$fighter["Fighter"]["coordinate_x"]--;
-			break;
-		case "south":
-			$fighter["Fighter"]["coordinate_y"]--;
-			break;
-		case "west":
-			$fighter["Fighter"]["coordinate_x"]++;
-			break;
-		default:
-			return false;
+		case "north": $fighter['Fighter']['coordinate_y']++; break;
+		case "south": $fighter['Fighter']['coordinate_y']--; break;
+		case "west": $fighter['Fighter']['coordinate_x']++; break;
+		case "east": $fighter['Fighter']['coordinate_x']--; break;
 		}
-	   
-	   $this -> save($fighter);
-	   return true;
+		
+		$this -> save($fighter);
+	}
+	
+	public function pouet() {
+		
 	}
 	
 	public function getCoordinates($fighterId) {
