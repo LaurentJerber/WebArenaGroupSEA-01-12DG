@@ -45,10 +45,5 @@ class ArenasController extends AppController
 	public function diary() {
 		$this -> set('raw',$this->Event->find());
 	}
-	
-	public function cv() {
-		
-		
-	}
 }
 ?>

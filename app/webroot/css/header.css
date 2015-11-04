@@ -1,0 +1,41 @@
+#header {
+	background-color: #7F3816;
+	font-family: Calibri;
+}
+
+#header ul {
+	padding: 0;
+	margin: auto;
+	list-style-type: none;
+}
+
+@media only screen and (min-width: 800px) {
+	#header {
+		width: 100%;
+		height: 40px;
+		border-bottom: 3px solid white;
+	}
+	#header ul {
+		width: 800px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#header li {
+		width: 150px;
+		float: left;
+		text-align: center;
+	}
+	#header li > a {
+		width: 100%;
+		line-height: 40px;
+		display: block;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	#menu_connexion {
+		float: right;
+	}
+}

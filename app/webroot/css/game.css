@@ -1,0 +1,9 @@
+#game {
+	width: 50%;
+}
+
+.empty_coordinate {
+	width: 6.67%;
+	height: 6.67%;
+	background-color: red;
+}

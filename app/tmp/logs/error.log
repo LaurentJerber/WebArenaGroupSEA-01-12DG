@@ -379,3 +379,54 @@ Stack Trace:
 #10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
 #11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2015-11-04 11:16:17 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 49]
+2015-11-04 11:16:17 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 11:18:08 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 49]
+2015-11-04 11:18:08 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 11:18:09 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 49]
+2015-11-04 11:18:09 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 11:18:10 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 49]
+2015-11-04 11:18:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 11:33:39 Error: [MissingActionException] Action ArenasController::connexion() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connexion',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connexion
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
