@@ -2362,3 +2362,39 @@ Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-11-14 14:12:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 14:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 14:20:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 14:20:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/9.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

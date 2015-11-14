@@ -17,14 +17,14 @@ class Tool extends AppModel {
         )
 	);
    
-	const ACCEPTED_TYPES = array(Arena::OBJET_POTION_MAGIQUE, Arena::OBJET_BOUCLIER, Arena::OBJET_JUMELLES);
    
     public function setArena($arena) {
+		$acceptedTypes = array(Arena::OBJET_POTION_MAGIQUE, Arena::OBJET_BOUCLIER, Arena::OBJET_JUMELLES);
 		if ($arena instanceof Arena) {
 			$toSave = array();
 			foreach ($arena -> arena as $y => $line) {
 				foreach ($line as $x => $element) {
-					if (in_array($element, self::ACCEPTED_TYPES)){
+					if (in_array($element, $acceptedTypes)){
 						$this -> query("INSERT INTO tools (type, fighter_id, bonus, coordinate_x, coordinate_y) VALUES ('" . $element . "', 0, '" . Arena::OBJET_BONUS . "', '" . $x . "', '" . $y . "')");
 					}
 				}

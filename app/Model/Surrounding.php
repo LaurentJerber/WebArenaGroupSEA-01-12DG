@@ -11,14 +11,13 @@ class Surrounding extends AppModel {
     public $belongsTo = array(
 	);
    
-	const ACCEPTED_TYPES = array(Arena::DECOR_COLONNE, Arena::DECOR_MONSTRE, Arena::DECOR_PIEGE);
-   
     public function setArena($arena) {
+		$acceptedTypes = array(Arena::DECOR_COLONNE, Arena::DECOR_MONSTRE, Arena::DECOR_PIEGE);
 		if ($arena instanceof Arena) {
 			$toSave = array();
 			foreach ($arena -> arena as $y => $line) {
 				foreach ($line as $x => $element) {
-					if (in_array($element, self::ACCEPTED_TYPES)){
+					if (in_array($element, $acceptedTypes)){
 						$this -> query("INSERT INTO surrounding (type, coordinate_x, coordinate_y) VALUES ('" . $element . "', '" . $x . "', '" . $y . "')");
 					}
 				}
