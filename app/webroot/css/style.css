@@ -1,9 +1,138 @@
 body {
-	background-color: #bdc3c7;
-	margin: 0;
-	padding: 0;
+	font-family: Arial;
+	background-image: url("background.jpg");
+	margin: 0px;
 }
 
 .clear {
 	clear: both;
+}
+
+section{
+	width: 100%;
+	background-color: rgba(0,0,0, 0.7);
+	box-shadow: 0px 0px 2px black;
+	margin-bottom: 20px;
+	color: white;
+}
+
+section p {
+	color: white;
+	margin: 0;
+	margin-bottom: 3px;
+	margin-left: 20px;
+}
+
+section a {
+	color: white;
+	text-decoration: none;
+}
+
+section a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	width: 1000px;
+	margin: auto; /* the bottom margin is the negative value of the footer's height */
+	margin-top: 60px;
+	position: relative;
+	overflow: auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.half {
+	width: 48%;
+}
+
+h2 {
+	color: white;
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-style: italic;
+	margin-top:15px;
+}
+
+#login form {
+	margin: 10px;
+	color: white;
+}
+
+#login .input {
+	line-height: 30px;
+}
+#login .input input {
+	float: right;
+}
+
+#createFighter .input {
+	height: 26px;
+}
+
+#createFighter .input input {
+	float: right;
+}
+
+#createFighter img {
+	background-color: white;
+	width: 65px;
+	margin-left: calc(50% - 32px);
+}
+
+section form {
+	padding: 10px;
+	color: white;
+}
+
+section > p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section .submit {
+	text-align: center;
+}
+
+#facebook {
+	text-align: center;
+}
+
+#facebook a{
+	margin-bottom: 15px;
+}
+
+#events {
+	width: calc(100% - 30px);
+	color: white;
+	background-color: #323232;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 2px black;
+	margin-bottom: 20px;
+}
+.event_date {
+	text-align: left;
+}
+.event_message {
+	text-align: center;
+}
+
+.event_coor {
+	text-align: right;
+}
+
+#footer {
+	background-color: #323232;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	color: white;
 }

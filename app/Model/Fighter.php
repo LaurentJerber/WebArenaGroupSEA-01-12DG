@@ -18,35 +18,57 @@ class Fighter extends AppModel {
 
    );
    
-	public function doMove($fighterId, $direction){
-		$fighter = $this -> findById($fighterId);
-		
-		switch ($direction) {
-		case "north": $fighter['Fighter']['coordinate_y']++; break;
-		case "south": $fighter['Fighter']['coordinate_y']--; break;
-		case "west": $fighter['Fighter']['coordinate_x']++; break;
-		case "east": $fighter['Fighter']['coordinate_x']--; break;
+	public function getFighter($id) {
+		$fighter = $this ->  findById($id);
+		if ($fighter)
+			return $fighter['Fighter'];
+		else return false;
+	}
+	
+	public function getRealFighters($tools) {
+		$fighters = $this -> find('all');
+		$nbFighters = count($fighters);
+		for ($i = 0; $i < $nbFighters; $i++) {
+			$nbShields = $this -> numberOfTools($fighters[$i]['Fighter']['id'], Arena::OBJET_BOUCLIER, $tools);
+			$fighters[$i]['Fighter']['realHealth'] = $fighters[$i]['Fighter']['current_health'] + ($nbShields * Arena::OBJET_BONUS);
 		}
-		
-		$this -> save($fighter);
+		return $fighters;
 	}
 	
-	public function pouet() {
-		
+	public function numberOfTools($id, $type, $tools) {
+		$nb = 0;
+		foreach ($tools as $t) {
+			if ($t['Tool']['fighter_id'] == $id && $t['Tool']['type'] == $type) $nb++;
+		}
+		return $nb;
 	}
 	
-	public function getCoordinates($fighterId) {
-		$fighter = $this -> findById($fighterId);
-		return "X : " . $fighter['Fighter']['coordinate_x'] . " / Y : " . $fighter['Fighter']['coordinate_y'];
+	public function getFightersOf($playerId) {
+		$fighters = $this ->  find('all', array('conditions' => array('player_id = ' => $playerId)));
+		if ($fighters)
+			return $fighters;
+		else return false;
 	}
 	
-	public function getX($fighterId) {
-		$fighter = $this -> findById($fighterId);
-		return $fighter['Fighter']['coordinate_x'];
+	public function getFighterAt($x, $y) {
+		$fighter = $this -> find('first', array('conditions' => array('coordinate_x = ' => $x, 'coordinate_y = ' => $y)));
+		return $fighter['Fighter'];
 	}
 	
-	public function getY($fighterId) {
-		$fighter = $this -> findById($fighterId);
-		return $fighter['Fighter']['coordinate_y'];
+	public function getFighterByPlayer($id) {
+		$fighter = $this -> find('first', array('conditions' => array('player_id = ' => $id)));
+		return $fighter['Fighter'];
+	}
+	
+	public function getLevel($fighter) {
+		return floor($fighter['level'] / 4);
+	}
+	
+	public function dead($id) {
+		$fighter = $this -> getFighter($id);
+		if ($fighter) {
+			$fighter['current_health'] = -200;
+			$this -> save(array('Fighter' => $fighter));
+		}
 	}
 }

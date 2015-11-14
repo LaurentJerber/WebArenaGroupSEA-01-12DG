@@ -20,6 +20,7 @@
  */
 
 App::uses('Controller', 'Controller');
+App::uses('Component', 'Controller');
 
 /**
  * Application Controller
@@ -31,4 +32,19 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+	public function beforeFilter() {
+		
+		//Pour l'API Facebook
+		if(!isset($_SESSION)){
+			session_start();
+		}
+		
+		if ($this -> Session -> read('playerId'))
+			$this -> set('menuConnexion', 'Déconnexion');
+		else $this -> set('menuConnexion', 'Connexion');
+	}
+	public function missingAction($parameters) {
+        $this->controller->redirect('Arenaes/index');
+    }
 }

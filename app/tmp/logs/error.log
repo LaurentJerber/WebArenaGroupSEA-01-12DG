@@ -514,3 +514,1851 @@ Stack Trace:
 #1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
 #2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-11-12 14:40:52 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 14:41:36 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 14:42:59 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\AppController.php, line 38]
+2015-11-12 14:42:59 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 14:43:26 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 14:43:45 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 14:43:45 Error: [MissingActionException] Action ArenasController::connect() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'connect',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/connect
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 15:34:21 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 3]
+2015-11-12 15:34:21 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 15:35:14 Error: Fatal Error (1): Call to a member function input() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 4]
+2015-11-12 15:35:14 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 15:45:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Player.php(31): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(31): Player->signin(NULL, NULL)
+#7 [internal function]: ArenasController->login()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 15:47:41 Error: Fatal Error (4): syntax error, unexpected 'label' (T_STRING) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 5]
+2015-11-12 15:47:41 Error: [FatalErrorException] syntax error, unexpected 'label' (T_STRING)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:11:58 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:12:07 Error: [MissingComponentException] Component class SessionsComponent Component could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent Component',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:12:31 Error: [MissingComponentException] Component class SessionsComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponentComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:12:37 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:12:38 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:13:43 Error: [MissingComponentException] Component class SessionsComponent Component could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent Component',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:36 Error: [MissingComponentException] Component class SessionsComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponentComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:37 Error: [MissingComponentException] Component class SessionsComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponentComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:38 Error: [MissingComponentException] Component class SessionsComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponentComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SessionsCompone...', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:50 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:51 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:52 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:52 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:52 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:15:53 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:16:28 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:16:28 Error: [MissingComponentException] Component class SessionsComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SessionsComponent',
+  'plugin' => false,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Sessions', Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ArenasController))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 16:23:13 Error: Fatal Error (64): Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 26]
+2015-11-12 16:23:13 Error: [FatalErrorException] Cannot use isset() on the result of a function call (you can use "null !== func()" instead)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:23:35 Error: Fatal Error (64): Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 47]
+2015-11-12 16:23:35 Error: [FatalErrorException] Cannot use isset() on the result of a function call (you can use "null !== func()" instead)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot use isse...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:31:04 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 2]
+2015-11-12 16:31:04 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:32:40 Error: Fatal Error (64): Cannot redeclare ArenasController::sight() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 117]
+2015-11-12 16:32:40 Error: [FatalErrorException] Cannot redeclare ArenasController::sight()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 117)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 117, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 117, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:32:50 Error: Fatal Error (1): Call to a member function findById() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Fighter.php, line 22]
+2015-11-12 16:32:50 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:33:28 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Fighter.php, line 32]
+2015-11-12 16:33:28 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:33:40 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 56]
+2015-11-12 16:33:40 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:34:05 Error: Fatal Error (4): syntax error, unexpected '$x' (T_VARIABLE), expecting ')' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 169]
+2015-11-12 16:34:05 Error: [FatalErrorException] syntax error, unexpected '$x' (T_VARIABLE), expecting ')'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 16:34:16 Error: Fatal Error (1): Call to undefined method ArenasController::find() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 108]
+2015-11-12 16:34:16 Error: [FatalErrorException] Call to undefined method ArenasController::find()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 108, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 108, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 17:16:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/imgfighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/imgfog
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/imgfighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/imgfog
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/img/fighter.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/img/fighter.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/app/webroot/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/webroot/img/fighter.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:16:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/webroot/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/webroot/img/fighter.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/webroot/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:19:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:20:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:21:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:31:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:35:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/webroot/img/fighter.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:35:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/webroot/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:38:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/caca.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:39:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:39:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:39:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:45:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:45:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:46:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:46:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fog.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:52:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/colonne.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:52:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/piege.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 17:54:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/colonne.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-12 19:00:59 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 7]
+2015-11-12 19:00:59 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 19:01:24 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 7]
+2015-11-12 19:01:24 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 19:11:05 Error: Fatal Error (4): syntax error, unexpected '' message'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 215]
+2015-11-12 19:11:05 Error: [FatalErrorException] syntax error, unexpected '' message'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 215)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 215, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 215, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 21:19:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_x' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter/%C2%B2%C2%B2:fighter/fighter:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Fighter), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(134): Model->save(Array)
+#6 [internal function]: ArenasController->fighter()
+#7 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-12 21:26:11 Error: Fatal Error (4): syntax error, unexpected ':' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 246]
+2015-11-12 21:26:11 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 246)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 246, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 246, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 21:26:29 Error: Fatal Error (1): Undefined class constant 'Fighter' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 246]
+2015-11-12 21:26:29 Error: [FatalErrorException] Undefined class constant 'Fighter'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Undefined class...', 'C:\\xampp\\htdocs...', 246)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', 'C:\\xampp\\htdocs...', 246, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', 'C:\\xampp\\htdocs...', 246, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 21:27:03 Error: Fatal Error (1): Undefined class constant 'OBJET_POTION' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 80]
+2015-11-12 21:27:03 Error: [FatalErrorException] Undefined class constant 'OBJET_POTION'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Undefined class...', 'C:\\xampp\\htdocs...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', 'C:\\xampp\\htdocs...', 80, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', 'C:\\xampp\\htdocs...', 80, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 21:59:12 Error: Fatal Error (4): syntax error, unexpected '$currentEvents' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php, line 10]
+2015-11-12 21:59:12 Error: [FatalErrorException] syntax error, unexpected '$currentEvents' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:07:08 Error: Fatal Error (1): Call to undefined method ArenasController::save() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 119]
+2015-11-12 22:07:08 Error: [FatalErrorException] Call to undefined method ArenasController::save()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:7/attackX:6
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 119)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 119, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 119, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:11:16 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 104]
+2015-11-12 22:11:16 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:7/attackX:6
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 104, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 104, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:22:47 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Fighter.php, line 31]
+2015-11-12 22:22:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:7/attackX:6
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:23:07 Error: Fatal Error (1): Call to undefined function numberOfTools() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Fighter.php, line 32]
+2015-11-12 22:23:07 Error: [FatalErrorException] Call to undefined function numberOfTools()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:7/attackX:6
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:28:43 Error: [MissingActionException] Action ArenasController::facebook() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'facebook',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQAk18xrSx_1N2JKAtbKZVBY_8moAO5xqQa71rk0viID3DDNPLmHJFdvWSfiHaCn2XDq8kL3LqCZA5nq7VrJGyYtrq8Lje4e_j6ZcFm23ZwqOjshyOnrULd7oXIKP6_nkDV142md3J3znDGBJcYnR_znrZRB9Pl36mbsRpPFpt9YY7SMjxbT5bE0z1xJ2kqi2H_Y4Z4MIWH5KTi5Ax7U7d204m8ZSQqRsS-fd65rYM7tE1LstH2JgB-v56OnTjmUOrtIh5NSwwbrRmC0G5p9ZmBcBPaa18kF3xkozeYxnuZYSizzVkmNRiptvdLN1fgpFUP9HWyL16V-3Pkpla48DG5j&state=5f09e3e1e94db8094a5f49522cfe1c98
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 22:35:22 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 47]
+2015-11-12 22:35:22 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:36:55 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:36:55 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:01 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 52]
+2015-11-12 22:41:01 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:03 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 52]
+2015-11-12 22:41:03 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:04 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 52]
+2015-11-12 22:41:04 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:04 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 52]
+2015-11-12 22:41:04 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:54 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:54 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:55 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:55 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:56 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:56 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:56 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:56 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:56 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:56 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:56 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:56 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:41:57 Error: Fatal Error (1): Class 'Facebook\Facebook' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 48]
+2015-11-12 22:41:57 Error: [FatalErrorException] Class 'Facebook\Facebook' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:11 Error: Fatal Error (1): Class 'Facebook\FacebookApp' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\Facebook.php, line 141]
+2015-11-12 22:44:11 Error: [FatalErrorException] Class 'Facebook\FacebookApp' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:35 Error: Fatal Error (1): Class 'Facebook\FacebookApp' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\Facebook.php, line 141]
+2015-11-12 22:44:35 Error: [FatalErrorException] Class 'Facebook\FacebookApp' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:37 Error: Fatal Error (1): Class 'Facebook\FacebookApp' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\Facebook.php, line 141]
+2015-11-12 22:44:37 Error: [FatalErrorException] Class 'Facebook\FacebookApp' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:38 Error: Fatal Error (1): Class 'Facebook\FacebookApp' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\Facebook.php, line 141]
+2015-11-12 22:44:38 Error: [FatalErrorException] Class 'Facebook\FacebookApp' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 141, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:48 Error: Fatal Error (1): Class 'Facebook\FacebookClient' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\Facebook.php, line 159]
+2015-11-12 22:44:48 Error: [FatalErrorException] Class 'Facebook\FacebookClient' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 159)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 159, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 159, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:44:58 Error: Fatal Error (1): Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\vendors\Facebook\FacebookClient.php, line 127]
+2015-11-12 22:44:58 Error: [FatalErrorException] Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 127)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 127, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 127, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:45:09 Error: Fatal Error (1): Call to a member function url() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 57]
+2015-11-12 22:45:09 Error: [FatalErrorException] Call to a member function url() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:46:45 Error: [MissingActionException] Action ArenasController::facebook() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'facebook',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQCLCtfmJcD8XqioENMOoMJAzR6cRK7q1MZn0olh6z2vO5zIU41yuWqlNyJHgvj-SYi2GRCb1D-Kere66zMGJEtTerVDkOW8gpGRyUgKFTknpE-vBM6ZpP1N3x5WjztQh034rGu5a_nKseppxTmACQ_YPs97m_aS5-MBy0nGEENopxNriSTT-C38iIbHf65NlJlfe2QTU9FTn6vD0j79nvWFX61Q0QJ2S7Q7hXeQ8Lj8D1kXkva4ukhVfcr5rHe_i4SfDbB65BBy1t96yXpPfSq3hQtAYE4M0arfIJIc7nmD0F7ghDMR0d9BOzSNgjHK-BF4Aqe0onx0uHczpnDjkE2o&state=c5d30f730489968d06ec09d3cb626e0f
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-12 22:54:46 Error: [MissingViewException] View file "Arenas\facebook.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas\\facebook.ctp',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQDqrcqsFEjlY95MbbtrP8fMJGS0TwusegJVXLQF1CBBKnVnb5KVMk3I3Ir5pkGGEPvY8ZOTTG3yvrldvv70d80vtu2HHFODk0sc532qDWjbW_sYJUSRLcbIdXGlEKXrSJwC4cUTHFk_vwTSyw5SiSivucBhgq02TroDiX7kW4uaACmbXIqjykjMcBbJnpe8DMYnmlARp0L40lYcsVE4DV4NDqnWa1zhyJyY6NPW0A2EulkNNsxcI4aCtHrzR8IkztvCMo74RCUIM7gVMzEEImlCiZUQaRWXWbUaLAf5sIqnzaUtdoOlHHF852618kYBVvZaMExuF07ACFfsQUcsQOFj&state=1b279e690bfd9418a20ed129970d58f1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 22:55:03 Error: Fatal Error (1): Call to undefined method Facebook\Authentication\AccessToken::getValeu() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 22:55:03 Error: [FatalErrorException] Call to undefined method Facebook\Authentication\AccessToken::getValeu()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQC1OiXba90Qqx4Fx7JiuBWahhv7mmFO3xyl4vPPHk7a8ZOP8lMB15u_NAsKB-whrQOYT5bRjC3y-jp-czXdyNHnHGg6jnaHQWxvSAClIrFeE58ZeXVN08QuYp5QgJJE0xYoYTqOdis4iqaf1c32N2wghECq0vMfz-szq5mfcu7lWAnhdxuzMPBrIGFyoP3iDnb4R1kZzrfv6KVN-DwShAFKeMN2LW1jcFNrxXtUnPE5gNOR-QmJpONlgpGdmoVfidE7H1XqvBq_HbHxunWQ5axI3yG2V5vezkW3Jgu8yGDtf9mZR1w1apReyojrs9sUFvvhKPkH8dqHoEVF80MH12A-&state=fb8fb936c7d210e1f50695a38384997a
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 22:55:14 Error: [MissingViewException] View file "Arenas\facebook.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas\\facebook.ctp',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQAc3CHFs9wTAz95ledpuUW-ydpt15gFMDVHL_Ykc4CqT6ZtM0-etbIV8B96vjuMj3pQ2GX10fCLVdjWLgeyxyzrjCz1H35VwqluIQudMQNVLyXusMi3bEvtyUt6Hmk6tkzP7kwXdobzzL9mc2Gu0JMBDOiX-UFzfXKRtZBGTN8ld3Lz6B78nInlnEgk-Ow_gUODiqACWfVVjOix0XAMNhHYRwko1pLTnX8ejVN1pPWNXWzLegriJA-GbWKWZr9liQppqaPjTKneBdCHdyfp_-YaINuGKf7FbFiwHHt0ta6bE0kvtvXS3sd3yD0Ob5k0fNxaKrBbMwCGwUqV5LR3i4rm&state=62a61cb6fe191e6ffebcdd9c71c21034
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-12 23:06:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:06:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:06:55 Error: Fatal Error (1): Call to a member function api() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:06:55 Error: [FatalErrorException] Call to a member function api() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQBZX2QRXZBUY4-qcmx8GR5fIzTkTTqLxrumRvoaMOCAGsvBAKBfCZqvMVzrX__b_XGlYCIbOTLHhOU-rTgzOFL_G325IJNFHr-wp7SYW1raSGfp2Rei8vyna29J3AHqCnqw7PvJEjUN6CrhDaRLoauujKgGuu5wN-QVa4wmrtvEPB9LVc-9EHhJRjGMin5-qPgZuSdy818vF-HLuvbpiQ3YhLJ97193JnN1fiS6dW9XqTxXVRBPBGod1sVYJB8W9NMFJD94p2Rpzyu8DU4V42fa_nMhs78e4MDAp_lQarWdl3VEPtSf-yrGMojntNxT4MVBVI93vArQW1vqjaKFV2fZ&state=584c1a929437df99778d92421cfde602
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:07:52 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\AppController.php, line 39]
+2015-11-12 23:07:52 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQBZX2QRXZBUY4-qcmx8GR5fIzTkTTqLxrumRvoaMOCAGsvBAKBfCZqvMVzrX__b_XGlYCIbOTLHhOU-rTgzOFL_G325IJNFHr-wp7SYW1raSGfp2Rei8vyna29J3AHqCnqw7PvJEjUN6CrhDaRLoauujKgGuu5wN-QVa4wmrtvEPB9LVc-9EHhJRjGMin5-qPgZuSdy818vF-HLuvbpiQ3YhLJ97193JnN1fiS6dW9XqTxXVRBPBGod1sVYJB8W9NMFJD94p2Rpzyu8DU4V42fa_nMhs78e4MDAp_lQarWdl3VEPtSf-yrGMojntNxT4MVBVI93vArQW1vqjaKFV2fZ&state=584c1a929437df99778d92421cfde602
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:08:06 Error: Fatal Error (1): Call to undefined method Facebook\Facebook::api() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:08:06 Error: [FatalErrorException] Call to undefined method Facebook\Facebook::api()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQDaD0_zjQYAcYHCkrJVMyrxPl3_cFeBJ9maByfF9zCUAOKJ3eiowoFKincFakGvK_Nstdji_5rkfUHHbsge5HS2Wx23iwE_nC7AkW_Putrx2Udd8E0iwOqrceWYQ2xniVMvi2pOrLbi0EWlFNdk-F6WE1gr5BSoH4ewLfBfaG5-N1vIrfdPqUe_H8K4YHqEVc34TcrA1E29mL3O5yVLcIBsAmGCkdiVvKE13NeFNSg-cbpYnURqH16qjlQXMRPvf-KzwK5S3BUY6jRNACJrvLyd4h_Ns86_t26k-ae_gA0TCwKUK87yA__bV3QsgezARxDouvITe9kmOZuSifr_SF6R&state=e0bc48320a0a21e4b82587f1df076f4a
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:10:42 Error: Fatal Error (1): Call to undefined method Facebook\Facebook::api() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:10:42 Error: [FatalErrorException] Call to undefined method Facebook\Facebook::api()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQBi_vwBzHHpfog8n0tfEB274Gs2okHmV6vrYMYHxQF_VNJ9LIO20hMpxCGikb2ONfuBSXf3HRTz9R6nnWcbLexj7kIvFYRqXNh8iPC7WuobTJOtEB_9nem0GTcX2wspXUvfiMxrAWbqzlWVXXJ0eqoDrpLDBx8oM7CytbNQlgZGHnmiEmkoDFvTB5zilKy-quEiv9k6RqEQLFsoNB0-3Soy1gUKE03aYs0_9XkXN8544jw_rZxPWNZRaHVznoF98v8dGPYfci1JGrRwXaEMiNjvMmxFWeH8XEVgmVcxjkA8cZeZUe6Oyw95svXkTnsOhKe1daApFrpm8N3h0cuqeZsm&state=96b06d6800fcb25227c22b9acae50d99
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:11:29 Error: Fatal Error (1): Call to a member function setAccessToken() on null in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:11:29 Error: [FatalErrorException] Call to a member function setAccessToken() on null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQDmAYWrx3aberHALDm3Gdku1WRFhY6ndBdXtk3uhpzhiIQfDiWSvFp-ukHe78DoNbNk9Dudpn_TbkbmSc4W3vjQaktCgySUdDZW1J0NG9smWCkLdYvw0lwkk7-7J3239-Gte2CCdeeg8zDMqqzRSC-tocvUTbI4OV76-HS3RidSlhqRqZ_PQE1SL2wzFrXupMFasNXQ5ZMfCOLdTzqcEGXs9LGALxQuN3dELeZlQQ255iZp6T_nnjUua0zDaU0g1gA51gSUqdKoKvCD4txjAehB-Ytx3F6gdh0Mz0UdJTQfqrKcWgXcst2os4ibtRcc-d4nhEY6yEcYbm1M0x2hHIG0&state=4a03f4c33609b8a1ac778baad4ef8bc1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:11:39 Error: Fatal Error (1): Call to undefined method Facebook\Facebook::setAccessToken() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:11:39 Error: [FatalErrorException] Call to undefined method Facebook\Facebook::setAccessToken()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQDxSUmE6BuwpnDDvkPH72twjoJSZ68ydpRKH5sU-TiMhp6I4I_XvXmkqfXpZun7aW4pkcHJNaMn_NjXwPeACsX4bxI93-DQ3BeEI7AwdppF_YWhFSWHe8TBS1-0QEuh0PcPtsuKpGJU6hQmG0Ux1tcyjaBHBSzxZzUEtUOeAc5F38v8a8MWKf4v_6LvnFsqGZqGOsUw_8kaFisd_RsY_qqxU7_wCce1C-F8EbD46KK01sFJzm38HV6mFxa2QTI1IO595fvZ1H5ANwMELftF2N47icPmSiMwd-4aBfJP9gzC-IWvoukjQ2DwCGZrCQVg39VR6wUYXjU3m5FtZ5PAO-F3&state=1b6bec015958062b90aeb49e2887c1a9
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:13:00 Error: Fatal Error (1): Class 'FacebookRequest' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 85]
+2015-11-12 23:13:00 Error: [FatalErrorException] Class 'FacebookRequest' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/facebook?code=AQBl0f9sfPasxuLt7uC29kBKHQNlPJH93ULHBkwyKQQsOGp_zdH13qoJbvXsyE3rlQLE4PLSS_MtEmczStKOTbvR6zSzGE448c69W0aEgX04tJst07T0tix_-okKvKdIiT9WJv2CHfIlTKB327NjyTajsAjv4ErU8C-BrYxqb_n7quVUcL1eHMnCGpKcoZAauSJJIHHnPm8k-FEm7Aq9BJFEWOqomRcfr6Z7511wD5T7qqemsyzrn10pv6k3pLUuAnfQdSnqa6w4tjnqc0a97ER5unLVK1jL2YTpPOc5PytDfbMqLQJhxEmJqBMq2cz_X3g4X8IRhv31HYa9Q8nITNQ4&state=02365239f0b17818f6ac415088dbdf83
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 85, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', 'C:\\xampp\\htdocs...', 85, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:21:03 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 98]
+2015-11-12 23:21:03 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 98, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 98, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:28:51 Error: Fatal Error (1): Call to undefined method View::field() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 15]
+2015-11-12 23:28:51 Error: [FatalErrorException] Call to undefined method View::field()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:3
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:29:01 Error: Fatal Error (1): Call to undefined method View::input() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 15]
+2015-11-12 23:29:01 Error: [FatalErrorException] Call to undefined method View::input()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:3
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-12 23:53:37 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_y' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:2
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Event), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php(23): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(164): Event->add('Baboulinet est ...')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 23:54:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_x' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:2
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Event), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php(23): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(164): Event->add(NULL, NULL, 'Baboulinet est ...')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-12 23:55:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_x' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:6/moveToX:2
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Event), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php(23): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(164): Event->add(NULL, NULL, 'Baboulinet est ...')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 07:55:56 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 212]
+2015-11-13 07:55:56 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 212)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 212, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 212, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 07:58:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deleteMonster' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:3/attackX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('deleteMonster', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('deleteMonster', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('deleteMonster', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('deleteMonster', Array, Object(Surrounding))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(213): Model->__call('deleteMonster', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(213): Surrounding->deleteMonster('4', '3')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 07:59:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:3/attackX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('DELETE `Surroun...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\Database\Mysql.php(455): DboSource->execute('DELETE `Surroun...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(2709): Mysql->delete(Object(Surrounding), Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Surrounding.php(38): Model->delete(Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(213): Surrounding->deleteMonster('4', '3')
+#6 [internal function]: ArenasController->sight()
+#7 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-13 08:05:14 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Surrounding.php, line 38]
+2015-11-13 08:05:14 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:3/attackX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 08:05:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_y' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:3/attackX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Event), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php(23): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(214): Event->add('Baboulinet a at...')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 08:06:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coordinate_y' cannot be null
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:3/attackX:4
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Event), Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Event.php(23): Model->save(Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(214): Event->add('Baboulinet a at...')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 09:11:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'assign' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:4/moveToX:6
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('assign', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('assign', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('assign', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('assign', Array, Object(Tool))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Model->__call('assign', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Tool->assign('4', '6', '4')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 09:12:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'assign' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:1/moveToX:8
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('assign', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('assign', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('assign', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('assign', Array, Object(Tool))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Model->__call('assign', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Tool->assign('4', '8', '1')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 09:26:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'assign' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:1/moveToX:9
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('assign', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('assign', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('assign', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('assign', Array, Object(Tool))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Model->__call('assign', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(171): Tool->assign('4', '9', '1')
+#7 [internal function]: ArenasController->sight()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 11:00:45 Error: Fatal Error (4): syntax error, unexpected '$y' (T_VARIABLE) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 199]
+2015-11-13 11:00:45 Error: [FatalErrorException] syntax error, unexpected '$y' (T_VARIABLE)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/diary
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 11:00:45 Error: Fatal Error (4): syntax error, unexpected '$y' (T_VARIABLE) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 199]
+2015-11-13 11:00:45 Error: [FatalErrorException] syntax error, unexpected '$y' (T_VARIABLE)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/diary
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 11:00:55 Error: Fatal Error (4): syntax error, unexpected '$y' (T_VARIABLE) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\Arena.php, line 199]
+2015-11-13 11:00:55 Error: [FatalErrorException] syntax error, unexpected '$y' (T_VARIABLE)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/diary
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 199, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:38:43 Error: Fatal Error (1): Class 'FileTools' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\FileUploader.php, line 3]
+2015-11-13 18:38:43 Error: [FatalErrorException] Class 'FileTools' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:39:14 Error: Fatal Error (1): Class 'FileTools' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\FileUploader.php, line 3]
+2015-11-13 18:39:14 Error: [FatalErrorException] Class 'FileTools' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:39:15 Error: Fatal Error (1): Class 'FileTools' not found in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\FileUploader.php, line 3]
+2015-11-13 18:39:15 Error: [FatalErrorException] Class 'FileTools' not found
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'FileTool...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:45:51 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\fighter.ctp, line 19]
+2015-11-13 18:45:51 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:46:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\fighter.ctp, line 19]
+2015-11-13 18:46:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 18:58:04 Error: Fatal Error (1): Call to undefined function kp_random_password() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 297]
+2015-11-13 18:58:04 Error: [FatalErrorException] Call to undefined function kp_random_password()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 297)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 297, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 297, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 19:04:19 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\FileUploader.php, line 107]
+2015-11-13 19:04:19 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 19:04:23 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Lib\FileUploader.php, line 107]
+2015-11-13 19:04:23 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 107, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 19:52:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:55:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:58:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:58:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:59:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:59:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 19:59:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 20:04:51 Error: Fatal Error (1): Call to undefined method View::clearStatCache() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Utility\File.php, line 411]
+2015-11-13 20:04:51 Error: [FatalErrorException] Call to undefined method View::clearStatCache()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:05:11 Error: Fatal Error (1): Call to undefined method View::clearStatCache() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Utility\File.php, line 411]
+2015-11-13 20:05:11 Error: [FatalErrorException] Call to undefined method View::clearStatCache()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/fighter
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 411, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:07:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 20:08:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fighter_black.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 20:08:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/fighter_black.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 20:12:29 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Model\Tool.php, line 56]
+2015-11-13 20:12:29 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/moveToY:1/moveToX:8
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:15:17 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 258]
+2015-11-13 20:15:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 258)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 258, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 258, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:29:42 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 11]
+2015-11-13 20:29:42 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:45:21 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 22]
+2015-11-13 20:45:21 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/password:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:45:49 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 13]
+2015-11-13 20:45:49 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/password:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 20:48:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getPlayerByEmail' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/password:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('getPlayerByEmai...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('getPlayerByEmai...', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('getPlayerByEmai...', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('getPlayerByEmai...', Array, Object(Player))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(38): Model->__call('getPlayerByEmai...', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(38): Player->getPlayerByEmail(NULL)
+#7 [internal function]: ArenasController->login()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-13 20:58:06 Error: [MissingControllerException] Controller class ReinitPwsController could not be found.
+Exception Attributes: array (
+  'class' => 'ReinitPwsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/reinit_pws/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 21:20:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 26]
+2015-11-13 21:20:00 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight/attackY:0/attackX:10
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 21:20:02 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 26]
+2015-11-13 21:20:02 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 21:20:04 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\sight.ctp, line 26]
+2015-11-13 21:20:04 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sight
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-13 21:20:15 Error: [MissingActionException] Action ArenasController::sightmoveToX:9() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'sightmoveToX:9',
+)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/sightmoveToX:9/moveToY:0
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-13 21:29:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/7.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-13 21:29:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/7.png
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 10:34:37 Error: [MissingControllerException] Controller class ReinitPwsController could not be found.
+Exception Attributes: array (
+  'class' => 'ReinitPwsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/reinit_pws/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 10:36:56 Error: [MissingControllerException] Controller class ReinitPwsController could not be found.
+Exception Attributes: array (
+  'class' => 'ReinitPwsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/reinit_pws/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 10:38:55 Error: [MissingControllerException] Controller class PlayersController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayersController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 10:39:23 Error: [MissingControllerException] Controller class PlayersController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayersController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 10:40:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\View\Arenas\login.ctp, line 9]
+2015-11-14 10:40:00 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/password:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-14 10:43:59 Error: Fatal Error (1): Call to undefined method ArenasController::save() in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 46]
+2015-11-14 10:43:59 Error: [FatalErrorException] Call to undefined method ArenasController::save()
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/password:1
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-14 10:44:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getPlayerByEmail' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/u:/playerid:56458e52-1c08-4a22-be81-117825d337e7
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('getPlayerByEmai...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('getPlayerByEmai...', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('getPlayerByEmai...', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('getPlayerByEmai...', Array, Object(Player))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(55): Model->__call('getPlayerByEmai...', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(55): Player->getPlayerByEmail(NULL)
+#7 [internal function]: ArenasController->login()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-14 10:46:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getPlayerByEmail' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/u:Xsqz4NxR2b8CuhzgvlGMF4PD7GPOoT3LCWjsoxXnMTRtpJmflhhCceX53PgCvMwF/playerid:56458e52-1c08-4a22-be81-117825d337e7
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('getPlayerByEmai...', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('getPlayerByEmai...', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('getPlayerByEmai...', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('getPlayerByEmai...', Array, Object(Player))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(56): Model->__call('getPlayerByEmai...', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(56): Player->getPlayerByEmail(NULL)
+#7 [internal function]: ArenasController->login()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-14 10:54:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getPlayer' at line 1
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/u:Xsqz4NxR2b8CuhzgvlGMF4PD7GPOoT3LCWjsoxXnMTRtpJmflhhCceX53PgCvMwF/playerid:56458e52-1c08-4a22-be81-117825d337e7
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('getPlayer', Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('getPlayer', Array, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('getPlayer', Array, Array)
+#4 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Model\Model.php(827): DboSource->query('getPlayer', Array, Object(Player))
+#5 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(57): Model->__call('getPlayer', Array)
+#6 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php(57): Player->getPlayer(NULL)
+#7 [internal function]: ArenasController->login()
+#8 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-14 13:35:05 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\Controller\ArenasController.php, line 109]
+2015-11-14 13:35:05 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /WebArenaGroupSEA-01-12DG/Arenas/login/u:Xsqz4NxR2b8CuhzgvlGMF4PD7GPOoT3LCWjsoxXnMTRtpJmflhhCceX53PgCvMwF/playerid:56458e52-1c08-4a22-be81-117825d337e7
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 109, Array)
+#2 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 109, Array)
+#3 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-14 13:47:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 13:48:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-14 13:57:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSEA-01-12DG/img/avatars/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\WebArenaGroupSEA-01-12DG\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
